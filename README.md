@@ -16,3 +16,5 @@ Here are some ideas to get you started:
 -->
 
 ![jaekeun's github stats](https://github-readme-stats.vercel.app/api?username=Jaekeun-Lee&show_icons=true&theme=merko)
+
+[![Blog](https://img.shields.io/badge/Blog-minimalism-jk-green.svg)](https://ljg960730.tistory.com/)
