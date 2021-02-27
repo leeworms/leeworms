@@ -15,12 +15,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-
-![Yun's github stats](https://github-readme-stats.vercel.app/api?username=Jaekeun-Lee&show_icons=true&theme=merko)
-
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Jaekeun-Lee&layout=compact&exclude_repo=Jaekeun-Lee.github.io,Yun-Blog,intellij-settings)](https://github.com/anuraghazra/github-readme-stats)
-
-[![Blog](https://user-images.githubusercontent.com/64590527/93013994-23cbd480-f5e8-11ea-971f-2837fc49ba5d.JPG)](https://ljg960730.tistory.com/)
-
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Jaekeun-Lee)](https://github.com/anuraghazra/github-readme-stats)
+![jaekeun's github stats](https://github-readme-stats.vercel.app/api?username=Jaekeun-Lee&show_icons=true&theme=merko)
