@@ -30,7 +30,7 @@
  
 <br/>
 
-### :pencil2:Education
+## Education
 - **Convergence IT** - Konyang University *(Mar 2015 - Feb 2021)*
 - **Back-End Web development** - BitCamp *(Sep 2020 - Feb 2021)*  
   
