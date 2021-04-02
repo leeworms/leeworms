@@ -24,7 +24,8 @@
 ### Hello, I'm Jaekeun Lee!
 
  * :seedling: [Resume](https://jaekeun-lee.github.io/) 
- * :baby_chick: [Portfolio]() 
+ * :eyes: [Skill](https://www.notion.so/b3417dfd21544aa7b9b7e2f7f585e360)
+ * :baby_chick: [Portfolio](https://www.notion.so/99f6b5d43530410ba05aa08c2bbc5c71) 
  * :swan: [My Blog](https://ljg960730.tistory.com/)
 
  
