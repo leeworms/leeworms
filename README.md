@@ -25,7 +25,7 @@
 
  * :seedling: [Resume](https://jaekeun-lee.github.io/) 
  * :eyes: [Skill](https://www.notion.so/b3417dfd21544aa7b9b7e2f7f585e360)
- * :baby_chick: [Portfolio](https://www.notion.so/99f6b5d43530410ba05aa08c2bbc5c71) 
+ * :baby_chick: [Portfolio](https://jaekeun-lee.github.io/portfolio/) 
  * :swan: [My Blog](https://ljg960730.tistory.com/)
 
  
