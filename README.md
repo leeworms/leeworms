@@ -39,13 +39,13 @@
   
 
 ## Github Stats  
-<table><tr><td valign="top" width="50%">
+<table style="border:0"><tr><td valign="top" width="50%">
 
 <img src="https://github-readme-stats.vercel.app/api?username=Jaekeun-Lee&show_icons=true&theme=gruvbox" align="left" style="width: 100%" />
 
 </td><td valign="top" width="50%">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jaekeun-Lee&hide_border=true&layout=compact&theme=gruvbox" align="left" style="width: 95%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jaekeun-Lee&layout=compact&theme=gruvbox" align="left" style="width: 95%" />
 
 </td></tr></table>  
 
