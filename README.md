@@ -13,5 +13,5 @@
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Jaekeun-Lee&show_icons=true&bg_color=0D1117&hide_border=true&theme=merko&hide_rank=true&count_private=true" alt="Jaekeun-Lee's Github Stats" height="192px"/>
   <img src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=Jaekeun-Lee&bg_color=0D1117&langs_count=8&layout=compact&theme=merko&hide_border=true" alt="Jaekeun-Lee's Top Languages" height="192px"/>
-  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=Jaekeun-Lee&theme=merko&hide_border=true&short_numbers=true&background=0D1117" alt="Jaekeun-Lee's streak" height="192px"/>
+  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=Jaekeun-Lee&theme=merko&hide_border=true&short_numbers=true&background=0D1117&card_width=606" alt="Jaekeun-Lee's streak" height="192px"/>
 </p>
