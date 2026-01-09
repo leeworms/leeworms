@@ -1,9 +1,4 @@
-<p align="center">
-<a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats-eight.vercel.app?user=leeworms&theme=holi-theme&hide_border=true&border_radius=6&short_numbers=true&mode=weekly&fire=EB5454" alt="GitHub Streak" /></a>
-</p>
-<br/>
-
-<p align="center" >
+<p>
   <a href="https://ljg960730.tistory.com/" style="text-decoration:none; color:inherit;">
     <img src="https://img.shields.io/badge/Tistory-eb531f?logo=Tistory"/>
   </a>
