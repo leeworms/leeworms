@@ -3,53 +3,52 @@
     .t { font: 16px "Fira Code", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; fill: #6B7280; }
   </style>
 
-  <!-- Global cycle: 9s loop -->
-  <rect width="0" height="0" opacity="0">
-    <animate id="cycle" attributeName="width" values="0;0" dur="9s" repeatCount="indefinite" />
-  </rect>
-
-  <!-- Line 1: 0s ~ 3s -->
-  <g>
-    <mask id="m2">
-      <rect x="0" y="0" width="0" height="28" fill="#fff">
-        <animate attributeName="width" values="0;650" begin="cycle.begin+3s" dur="0.9s" fill="freeze" />
-        <animate attributeName="width" values="650;0" begin="cycle.begin+5.35s" dur="0.4s" fill="freeze" />
-      </rect>
-    </mask>
-    <text class="t" x="0" y="19" mask="url(#m2)" opacity="0">
-      로그랑 대화하며 원인을 찾는 백엔드 개발자예요 🔍
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.85;1" begin="cycle.begin+3s" dur="3s" repeatCount="indefinite" />
-    </text>
-  </g>
-
-  <!-- Line 2: 3s ~ 6s -->
-  
+  <!-- Line 1 -->
   <g>
     <mask id="m1">
       <rect x="0" y="0" width="0" height="28" fill="#fff">
-        <!-- type -->
-        <animate attributeName="width" values="0;650" begin="cycle.begin+0s" dur="0.9s" fill="freeze" />
-        <!-- delete -->
-        <animate attributeName="width" values="650;0" begin="cycle.begin+2.35s" dur="0.4s" fill="freeze" />
+        <!-- Smooth: type -> hold -> delete (all via mask width, no opacity blinking) -->
+        <animate id="w1"
+                 attributeName="width"
+                 values="0;650;650;0"
+                 keyTimes="0;0.30;0.82;1"
+                 dur="3.2s"
+                 begin="0s;w3.end"
+                 fill="remove" />
       </rect>
     </mask>
-    <text class="t" x="0" y="19" mask="url(#m1)" opacity="0">
-      배포 버튼 누르기 전, 심호흡 한 번 합니다 😮‍💨
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.85;1" begin="cycle.begin+0s" dur="3s" repeatCount="indefinite" />
-    </text>
+    <text class="t" x="0" y="19" mask="url(#m1)">로그랑 대화하며 원인을 찾는 백엔드 개발자예요 🔍</text>
   </g>
 
-  <!-- Line 3: 6s ~ 9s -->
+  <!-- Line 2 -->
+  <g>
+    <mask id="m2">
+      <rect x="0" y="0" width="0" height="28" fill="#fff">
+        <animate id="w2"
+                 attributeName="width"
+                 values="0;650;650;0"
+                 keyTimes="0;0.30;0.82;1"
+                 dur="3.2s"
+                 begin="w1.end"
+                 fill="remove" />
+      </rect>
+    </mask>
+    <text class="t" x="0" y="19" mask="url(#m2)">배포 버튼 누르기 전, 심호흡 한 번 합니다 😮‍💨</text>
+  </g>
+
+  <!-- Line 3 -->
   <g>
     <mask id="m3">
       <rect x="0" y="0" width="0" height="28" fill="#fff">
-        <animate attributeName="width" values="0;650" begin="cycle.begin+6s" dur="0.9s" fill="freeze" />
-        <animate attributeName="width" values="650;0" begin="cycle.begin+8.35s" dur="0.4s" fill="freeze" />
+        <animate id="w3"
+                 attributeName="width"
+                 values="0;650;650;0"
+                 keyTimes="0;0.30;0.82;1"
+                 dur="3.2s"
+                 begin="w2.end"
+                 fill="remove" />
       </rect>
     </mask>
-    <text class="t" x="0" y="19" mask="url(#m3)" opacity="0">
-      쓸모 있는 기능과 성능 개선을 좋아해요 🛠️
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.85;1" begin="cycle.begin+6s" dur="3s" repeatCount="indefinite" />
-    </text>
+    <text class="t" x="0" y="19" mask="url(#m3)">쓸모 있는 기능과 성능 개선을 좋아해요 🛠️</text>
   </g>
 </svg>
