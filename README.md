@@ -1,7 +1,7 @@
 ### 이재근 ﹒ leeworms
 
 <p align="left">
-  <img src="https://raw.githubusercontent.com/leeworms/leeworms/main/typing.svg?v=1" alt="typing" />
+  <img src="https://raw.githubusercontent.com/leeworms/leeworms/main/typing.svg?v=2" alt="typing" />
 </p>
 
 
