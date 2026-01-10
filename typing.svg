@@ -1,47 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="28" viewBox="0 0 560 28">
+<svg xmlns="http://www.w3.org/2000/svg" width="650" height="28" viewBox="0 0 650 28">
   <style>
     .t { font: 16px "Fira Code", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; fill: #6B7280; }
   </style>
 
-  <!-- line 1 -->
-  <g>
-    <mask id="m1">
-      <rect x="0" y="0" width="0" height="28" fill="#fff">
-        <animate attributeName="width" values="0;560" begin="0s" dur="0.55s" fill="freeze" />
-        <animate attributeName="width" values="560;0" begin="1.05s" dur="0.15s" fill="freeze" />
-      </rect>
-    </mask>
-    <text class="t" x="0" y="19" mask="url(#m1)" opacity="0">
-      배포 버튼 누르기 전, 심호흡 한 번 합니다 😮‍💨
-      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.8;0.99;1" begin="0s" dur="3.6s" repeatCount="indefinite" />
-    </text>
-  </g>
+  <!-- Global cycle: 9s loop -->
+  <rect width="0" height="0" opacity="0">
+    <animate id="cycle" attributeName="width" values="0;0" dur="9s" repeatCount="indefinite" />
+  </rect>
 
-  <!-- line 2 -->
+  <!-- Line 1: 0s ~ 3s -->
   <g>
     <mask id="m2">
       <rect x="0" y="0" width="0" height="28" fill="#fff">
-        <animate attributeName="width" values="0;560" begin="1.2s" dur="0.55s" fill="freeze" />
-        <animate attributeName="width" values="560;0" begin="2.25s" dur="0.15s" fill="freeze" />
+        <animate attributeName="width" values="0;650" begin="cycle.begin+3s" dur="0.9s" fill="freeze" />
+        <animate attributeName="width" values="650;0" begin="cycle.begin+5.35s" dur="0.4s" fill="freeze" />
       </rect>
     </mask>
     <text class="t" x="0" y="19" mask="url(#m2)" opacity="0">
       로그랑 대화하며 원인을 찾는 백엔드 개발자예요 🔍
-      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.8;0.99;1" begin="1.2s" dur="3.6s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.85;1" begin="cycle.begin+3s" dur="3s" repeatCount="indefinite" />
     </text>
   </g>
 
-  <!-- line 3 -->
+  <!-- Line 2: 3s ~ 6s -->
+  
+  <g>
+    <mask id="m1">
+      <rect x="0" y="0" width="0" height="28" fill="#fff">
+        <!-- type -->
+        <animate attributeName="width" values="0;650" begin="cycle.begin+0s" dur="0.9s" fill="freeze" />
+        <!-- delete -->
+        <animate attributeName="width" values="650;0" begin="cycle.begin+2.35s" dur="0.4s" fill="freeze" />
+      </rect>
+    </mask>
+    <text class="t" x="0" y="19" mask="url(#m1)" opacity="0">
+      배포 버튼 누르기 전, 심호흡 한 번 합니다 😮‍💨
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.85;1" begin="cycle.begin+0s" dur="3s" repeatCount="indefinite" />
+    </text>
+  </g>
+
+  <!-- Line 3: 6s ~ 9s -->
   <g>
     <mask id="m3">
       <rect x="0" y="0" width="0" height="28" fill="#fff">
-        <animate attributeName="width" values="0;560" begin="2.4s" dur="0.55s" fill="freeze" />
-        <animate attributeName="width" values="560;0" begin="3.45s" dur="0.15s" fill="freeze" />
+        <animate attributeName="width" values="0;650" begin="cycle.begin+6s" dur="0.9s" fill="freeze" />
+        <animate attributeName="width" values="650;0" begin="cycle.begin+8.35s" dur="0.4s" fill="freeze" />
       </rect>
     </mask>
     <text class="t" x="0" y="19" mask="url(#m3)" opacity="0">
       쓸모 있는 기능과 성능 개선을 좋아해요 🛠️
-      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.8;0.99;1" begin="2.4s" dur="3.6s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.85;1" begin="cycle.begin+6s" dur="3s" repeatCount="indefinite" />
     </text>
   </g>
 </svg>
