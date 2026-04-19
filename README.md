@@ -19,4 +19,3 @@
 ---
 
 [![Git Ranker](https://www.git-ranker.com/api/v1/badges/MDQ6VXNlcjY0NTkwNTI3)](https://www.git-ranker.com/users/leeworms)
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=leeworms)](https://solved.ac/leeworms/)
