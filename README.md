@@ -1,21 +1,18 @@
-### 이재근 ﹒ leeworms
+### 이재근 · Backend Developer
 
-<p align="left">
-  <a href="https://leeworms.github.io/" style="text-decoration:none; color:inherit;">
-    <img src="https://img.shields.io/badge/About_me-FFFFFF?logo=Bilibili&logoColor=000000&logoSize=auto"/>
-  </a>
-  <a href="https://ljg960730.tistory.com/" style="text-decoration:none; color:inherit;">
-    <img src="https://img.shields.io/badge/Tistory-eb531f?logo=Tistory"/>
-  </a>
-  <a href="https://velog.io/@2_j" style="text-decoration:none; color:inherit;">
-    <img src="https://img.shields.io/badge/Velog-20C997?logo=Velog&logoColor=FFFFFF"/>
-  </a>
-</p>
+Java & Spring을 중심으로 **복잡한 문제를 단순하고 안정적인 구조로** 풀어갑니다.
 
-<p align="left">
-  <img src="https://raw.githubusercontent.com/leeworms/leeworms/main/typing.svg?v=2" alt="typing" />
-</p>
 
----
+#### Tech Stack
 
-[![Git Ranker](https://www.git-ranker.com/api/v1/badges/MDQ6VXNlcjY0NTkwNTI3)](https://www.git-ranker.com/users/leeworms)
+<img src="./assets/icons.svg" alt="Tech Stack" />
+
+#### Open Source Contribution
+
+* [Spring AI #6744](https://github.com/spring-projects/spring-ai/pull/6744) — Correct `ToolContext` parameter detection · `Merged`
+* [Spring Data Redis #3401](https://github.com/spring-projects/spring-data-redis/pull/3401) — Fix inconsistent Javadoc parameter references · `Merged`
+
+
+#### Links
+
+[About Me ↗](https://leeworms.github.io/) · [Blog ↗](https://ljg960730.tistory.com/)
